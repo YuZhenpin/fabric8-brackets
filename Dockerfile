@@ -1,6 +1,6 @@
 FROM node
 
-RUN npm install brackets -g
+RUN npm install -g https://github.com/YuZhenpin/brackets-server.git
 
 RUN mkdir /var/projects && \
   mkdir /var/brackets
