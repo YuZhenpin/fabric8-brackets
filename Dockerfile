@@ -3,7 +3,7 @@ FROM node
 RUN npm install -g https://github.com/YuZhenpin/brackets-server.git
 
 RUN apt-get -y update && \
-  apt-get -y install git \
+  apt-get -y install git && \
   mkdir /var/projects && \
   mkdir -p /var/brackets/extensions/user && \
   cd /var/brackets/extensions/user && \
