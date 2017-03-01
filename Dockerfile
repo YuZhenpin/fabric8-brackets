@@ -1,6 +1,6 @@
 FROM node
 
-RUN npm install -g https://github.com/YuZhenpin/brackets-server.git
+RUN npm install -g brackets
 
 RUN apt-get -y update && \
   apt-get -y install git && \
